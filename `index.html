@@ -1,0 +1,307 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Team</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    rel="stylesheet"
+  />
+  <style>
+    body {
+      background: #fafafa;
+      font-family: 'Inter', sans-serif;
+    }
+    .team-card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .team-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 25px 40px -20px rgba(0, 0, 0, 0.3);
+    }
+    .social-icon {
+      color: #6b7280;
+      transition: color 0.3s ease;
+    }
+    .social-icon:hover {
+      color: #2563eb;
+    }
+  </style>
+</head>
+<body class="flex flex-col min-h-screen">
+
+  <header class="flex flex-col items-center py-10 px-4">
+    <!-- Logo -->
+    <img
+      src="https://iili.io/Fu5VDG9.jpg"
+      alt="Logo"
+      class="w-24 h-24 mb-6"
+      style="object-fit: contain;"
+    />
+    <h1 class="text-3xl font-semibold text-gray-900">De Silencio</h1>
+  </header>
+
+  <main class="flex-grow container mx-auto px-6 sm:px-12 lg:px-24 pb-16">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
+
+      <!-- Team member card template -->
+      <article
+        class="team-card bg-white rounded-lg p-8 flex flex-col items-center text-center shadow-sm"
+        >
+        <img
+          src="https://iili.io/FuuTQwl.jpg"
+          alt="Kulskie"
+          class="w-28 h-28 rounded-full object-cover mb-4"
+          loading="lazy"
+        />
+        <h3 class="font-semibold text-gray-900 mb-1">Kulskie</h3>
+        <p class="text-sm text-gray-500 mb-4">CEO &amp; Co-Founder</p>
+        <div class="flex gap-6 text-lg">
+          <a href="#" aria-label="WhatsApp" class="social-icon" title="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <a href="#" aria-label="Instagram" class="social-icon" title="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" aria-label="TikTok" class="social-icon" title="TikTok">
+            <i class="fab fa-tiktok"></i>
+          </a>
+        </div>
+      </article>
+
+      <article class="team-card bg-white rounded-lg p-8 flex flex-col items-center text-center shadow-sm">
+        <img
+          src="https://iili.io/FuuTbM7.jpg"
+          alt="Dila"
+          class="w-28 h-28 rounded-full object-cover mb-4"
+          loading="lazy"
+        />
+        <h3 class="font-semibold text-gray-900 mb-1">Dila</h3>
+        <p class="text-sm text-gray-500 mb-4">Creative Editor</p>
+        <div class="flex gap-6 text-lg">
+          <a href="#" aria-label="WhatsApp" class="social-icon" title="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <a href="#" aria-label="Instagram" class="social-icon" title="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" aria-label="TikTok" class="social-icon" title="TikTok">
+            <i class="fab fa-tiktok"></i>
+          </a>
+        </div>
+      </article>
+
+      <article class="team-card bg-white rounded-lg p-8 flex flex-col items-center text-center shadow-sm">
+        <img
+          src="https://iili.io/FuRRswb.jpg"
+          alt="xf4isal"
+          class="w-28 h-28 rounded-full object-cover mb-4"
+          loading="lazy"
+        />
+        <h3 class="font-semibold text-gray-900 mb-1">xf4isal</h3>
+        <p class="text-sm text-gray-500 mb-4">Broadcasting Buddy</p>
+        <div class="flex gap-6 text-lg">
+          <a href="#" aria-label="WhatsApp" class="social-icon" title="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <a href="#" aria-label="Instagram" class="social-icon" title="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" aria-label="TikTok" class="social-icon" title="TikTok">
+            <i class="fab fa-tiktok"></i>
+          </a>
+        </div>
+      </article>
+
+      <article class="team-card bg-white rounded-lg p-8 flex flex-col items-center text-center shadow-sm">
+        <img
+          src="https://iili.io/Fuuu9cu.jpg"
+          alt="Fadhil"
+          class="w-28 h-28 rounded-full object-cover mb-4"
+          loading="lazy"
+        />
+        <h3 class="font-semibold text-gray-900 mb-1">Fadhil</h3>
+        <p class="text-sm text-gray-500 mb-4">Admin Squad Division</p>
+        <div class="flex gap-6 text-lg">
+          <a href="#" aria-label="WhatsApp" class="social-icon" title="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <a href="#" aria-label="Instagram" class="social-icon" title="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" aria-label="TikTok" class="social-icon" title="TikTok">
+            <i class="fab fa-tiktok"></i>
+          </a>
+        </div>
+      </article>
+
+      <article class="team-card bg-white rounded-lg p-8 flex flex-col items-center text-center shadow-sm">
+        <img
+          src="https://iili.io/Fuuu3wQ.jpg"
+          alt="Nanad"
+          class="w-28 h-28 rounded-full object-cover mb-4"
+          loading="lazy"
+        />
+        <h3 class="font-semibold text-gray-900 mb-1">Nanad</h3>
+        <p class="text-sm text-gray-500 mb-4">Admin</p>
+        <div class="flex gap-6 text-lg">
+          <a href="#" aria-label="WhatsApp" class="social-icon" title="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <a href="#" aria-label="Instagram" class="social-icon" title="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" aria-label="TikTok" class="social-icon" title="TikTok">
+            <i class="fab fa-tiktok"></i>
+          </a>
+        </div>
+      </article>
+
+      <article class="team-card bg-white rounded-lg p-8 flex flex-col items-center text-center shadow-sm">
+        <img
+          src="https://iili.io/FuuTmP9.jpg"
+          alt="Zhi Yan"
+          class="w-28 h-28 rounded-full object-cover mb-4"
+          loading="lazy"
+        />
+        <h3 class="font-semibold text-gray-900 mb-1">Zhi Yan</h3>
+        <p class="text-sm text-gray-500 mb-4">Admin Selection</p>
+        <div class="flex gap-6 text-lg">
+          <a href="#" aria-label="WhatsApp" class="social-icon" title="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <a href="#" aria-label="Instagram" class="social-icon" title="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" aria-label="TikTok" class="social-icon" title="TikTok">
+            <i class="fab fa-tiktok"></i>
+          </a>
+        </div>
+      </article>
+
+      <!-- Four more team members to reach 11 -->
+      <article class="team-card bg-white rounded-lg p-8 flex flex-col items-center text-center shadow-sm">
+        <img
+          src="https://iili.io/FuuuH8b.jpg"
+          alt="Kuproy"
+          class="w-28 h-28 rounded-full object-cover mb-4"
+          loading="lazy"
+        />
+        <h3 class="font-semibold text-gray-900 mb-1">Kuproy</h3>
+        <p class="text-sm text-gray-500 mb-4">Admin</p>
+        <div class="flex gap-6 text-lg">
+          <a href="#" aria-label="WhatsApp" class="social-icon" title="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <a href="#" aria-label="Instagram" class="social-icon" title="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" aria-label="TikTok" class="social-icon" title="TikTok">
+            <i class="fab fa-tiktok"></i>
+          </a>
+        </div>
+      </article>
+
+      <article class="team-card bg-white rounded-lg p-8 flex flex-col items-center text-center shadow-sm">
+        <img
+          src="https://iili.io/FuuufoB.jpg"
+          alt="Piyy"
+          class="w-28 h-28 rounded-full object-cover mb-4"
+          loading="lazy"
+        />
+        <h3 class="font-semibold text-gray-900 mb-1">Piyy</h3>
+        <p class="text-sm text-gray-500 mb-4">Admin Selection</p>
+        <div class="flex gap-6 text-lg">
+          <a href="#" aria-label="WhatsApp" class="social-icon" title="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <a href="#" aria-label="Instagram" class="social-icon" title="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" aria-label="TikTok" class="social-icon" title="TikTok">
+            <i class="fab fa-tiktok"></i>
+          </a>
+        </div>
+      </article>
+
+      <article class="team-card bg-white rounded-lg p-8 flex flex-col items-center text-center shadow-sm">
+        <img
+          src="https://iili.io/FuuuBP1.jpg"
+          alt="Azell"
+          class="w-28 h-28 rounded-full object-cover mb-4"
+          loading="lazy"
+        />
+        <h3 class="font-semibold text-gray-900 mb-1">Azell</h3>
+        <p class="text-sm text-gray-500 mb-4">Admin Kompe</p>
+        <div class="flex gap-6 text-lg">
+          <a href="#" aria-label="WhatsApp" class="social-icon" title="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <a href="#" aria-label="Instagram" class="social-icon" title="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" aria-label="TikTok" class="social-icon" title="TikTok">
+            <i class="fab fa-tiktok"></i>
+          </a>
+        </div>
+      </article>
+
+      <article class="team-card bg-white rounded-lg p-8 flex flex-col items-center text-center shadow-sm">
+        <img
+          src="https://iili.io/FuReU8X.jpg"
+          alt="Doni"
+          class="w-28 h-28 rounded-full object-cover mb-4"
+          loading="lazy"
+        />
+        <h3 class="font-semibold text-gray-900 mb-1">Doni</h3>
+        <p class="text-sm text-gray-500 mb-4">Creative Editor</p>
+        <div class="flex gap-6 text-lg">
+          <a href="#" aria-label="WhatsApp" class="social-icon" title="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <a href="#" aria-label="Instagram" class="social-icon" title="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" aria-label="TikTok" class="social-icon" title="TikTok">
+            <i class="fab fa-tiktok"></i>
+          </a>
+        </div>
+      </article>
+
+      <!-- New team member: Suwandi -->
+      <article class="team-card bg-white rounded-lg p-8 flex flex-col items-center text-center shadow-sm">
+        <img
+          src="https://iili.io/Fu5Gov4.jpg"
+          alt="Wann"
+          class="w-28 h-28 rounded-full object-cover mb-4"
+          loading="lazy"
+        />
+        <h3 class="font-semibold text-gray-900 mb-1">Wann</h3>
+        <p class="text-sm text-gray-500 mb-4">Admin Kompe</p>
+        <div class="flex gap-6 text-lg">
+          <a href="#" aria-label="WhatsApp" class="social-icon" title="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <a href="#" aria-label="Instagram" class="social-icon" title="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" aria-label="TikTok" class="social-icon" title="TikTok">
+            <i class="fab fa-tiktok"></i>
+          </a>
+        </div>
+      </article>
+
+    </div>
+  </main>
+
+  <footer class="bg-white py-6 border-t border-gray-200 text-center text-xs text-gray-500">
+    &copy;  De Silencio - Made by Pain 
+    <p style="opacity: 0.2;">xf4isal</p>
+  </footer>
+
+</body>
+</html>
+```
